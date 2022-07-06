@@ -15,8 +15,8 @@ type Book struct {
 	ISBN        string `json:"isbn"`
 }
 type Block struct {
-	Pos  int          `json:"pos"`
-	Data BookCheckout `json:"data"`
+	Pos  int
+	Data BookCheckout
 	Timestamp
 	Hash
 	PrevHash
