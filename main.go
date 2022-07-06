@@ -15,11 +15,11 @@ type Book struct {
 	ISBN        string `json:"isbn"`
 }
 type Block struct {
-	Pos  int
-	Data BookCheckout
-	Timestamp
-	Hash
-	PrevHash
+	Pos       int
+	Data      BookCheckout
+	Timestamp string
+	Hash      string
+	PrevHash  string
 }
 
 type BookCheckout struct {
